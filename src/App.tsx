@@ -15,7 +15,7 @@ export default function App() {
 			</header>
 
 			{/* Chat Messages */}
-			<section class="flex grow flex-col gap-4 overflow-y-auto p-4">
+			<section class="flex grow flex-col gap-4 p-4">
 				{/* Bot Message */}
 				<div class="flex gap-2">
 					<div class="size-8 rounded-full">
