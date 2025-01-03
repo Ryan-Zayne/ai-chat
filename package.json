@@ -1,0 +1,30 @@
+{
+	"name": "ai-app",
+	"type": "module",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"build": "tsc -b && vite build",
+		"dev": "vite",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"solid-js": "^1.9.3"
+	},
+	"devDependencies": {
+		"@zayne-labs/eslint-config": "^0.5.0",
+		"@zayne-labs/tsconfig": "^0.2.1",
+		"autoprefixer": "^10.4.20",
+		"eslint-plugin-solid": "^0.14.5",
+		"eslint-plugin-tailwindcss": "^3.17.5",
+		"postcss": "^8.4.49",
+		"prettier": "^3.4.2",
+		"prettier-plugin-classnames": "^0.7.5",
+		"prettier-plugin-merge": "^0.7.2",
+		"prettier-plugin-tailwindcss": "^0.6.9",
+		"tailwindcss": "3.4.17",
+		"typescript": "^5.7.2",
+		"vite": "^6.0.5",
+		"vite-plugin-solid": "^2.11.0"
+	}
+}
