@@ -1,6 +1,6 @@
 export default function App() {
 	return (
-		<main class="flex max-h-[600px] max-w-md grow flex-col rounded-bl-[25px] bg-white shadow-xl">
+		<main class="flex min-h-[600px] max-w-md grow flex-col rounded-bl-[25px] bg-white shadow-xl">
 			{/* Chat Header */}
 			<header
 				class="flex items-center gap-3 rounded-t-[25px] rounded-br-[25px] bg-purple-600 p-4 text-white"
