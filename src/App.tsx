@@ -1,4 +1,4 @@
-export default function App() {
+function App() {
 	return (
 		<main class="flex min-h-[600px] max-w-md grow flex-col rounded-bl-[25px] bg-white shadow-xl">
 			{/* Chat Header */}
@@ -76,3 +76,5 @@ export default function App() {
 		</main>
 	);
 }
+
+export default App;
