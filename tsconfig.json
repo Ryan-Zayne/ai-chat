@@ -1,4 +1,14 @@
 {
-	"references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
-	"files": []
+	"extends": "@zayne-labs/tsconfig/bundler",
+
+	"compilerOptions": {
+		"jsxImportSource": "solid-js",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	},
+
+	"include": ["src/**/*", "**/*"],
+	"exclude": ["dist", "node_modules/**"]
 }

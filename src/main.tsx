@@ -1,6 +1,6 @@
 import { render } from "solid-js/web";
 import App from "./App";
-import "./tailwind.css";
+import "../tailwind.css";
 
 const root = document.querySelector("#app");
 
